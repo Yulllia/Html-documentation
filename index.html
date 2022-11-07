@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="index.css" /> 
+    <title>Html Documentation</title>
+</head>
+<body>
+    <h1 class="title">Introduction</h1>
+    <div class="content-block">
+        <p><b>H</b>ello my friend, I'm <span class="user-name">AndrTiger</span>, one who wants to help you to achieve your dream - become a developer.</p>
+        <p>I will be in touch all the time, all that you need to talk with me it's send your feedback after each of your adventures with your opinion, what was good or what bad, more feedback will help to make the best platform for learning.</p>
+        <p>Now let's talk about our scheme to learn, each adventure includes 2 parts (3 only premium):</p>
+        <ol class="list-bracket">
+            <li><b>Theory</b> - information about the theme, don't need to try to learn by heart, your general goal to understand the theme, if you forget which command can do something for you it’s not critical, you need to know that this command exists and know what this command does.
+                Then in case you forget a command name, you can easily find this on the internet and use this.
+            </li>
+            <li><b>Practice</b> - Next important step in learning is practice. Most courses don’t have enough practice tasks and as a result students lose their knowledge so fast.</li>
+            <li><b>Homework</b> (only premium) - Premium users will have homework after practice tasks. It’s similar to practice tasks but are more common for standard programmer work.</li>
+        </ol> 
+        <br/>
+        So let’s start with base information <br/>
+        We have HTML, CSS and JS - that’s all what you need to know to make your first site.
+        For example we need to have an button with next requirement: <br/>
+        <ol class="list-dot">
+            <li>Text - “Click”</li>
+            <li>Background - “green”</li>
+            <li>When user click a button he should to see pop up with this text “Hello”</li>
+        </ol>
+        <img class="image-info" src="./assets/image2.png" alt="button-click"/>
+        <ul>
+            <li>HTML - to be responsible for create button with text “Click”</li>
+            <li>CSS - to be responsible for set background to “green”</li>
+            <li>JS - to be responsible for set click on this button and show pop up with text “Hello”</li>
+        </ul>
+        <p>In first course we will learn HTML</p>
+        <p>What is HTML?</p>
+        <p><b>HTML</b>- HyperText Markup Language, sounds difficult, so let’s try to explain what it means easier.
+           <br/> <br/>  In HTML we have next technical stuff:
+        </p>
+        <ol class="list-sublist">
+            <li>Element</li>
+            <li>Tag
+            <ol class="list-sublist">
+                <li>tag name</li>
+                <li>start tag</li>
+                <li>end tag</li>
+                <li>self closing tag</li>
+            </ol>
+        </li>
+            <li>Attribute
+            <ol class="list-sublist">
+                <li>Attribute name</li>
+                <li>Attribute value</li>
+            </ol>
+        </li>
+            <li>Content</li>
+        </ol>
+        <p>In an image below we can see explain where which part is:</p>
+        <img class="image-info" src="./assets/image4.png" alt="attribute"/>
+        <p>in the picture above we have element h1, tag h1, attribute name “class” with attribute name “Primary” and content text “Example Heading”</p>
+    </div>
+    <div class="content-block">
+        <h2>A Simple HTML Document</h2>
+        <p>You can try to write your first HTML code with any code editor, we are recommended use Visual Studio Code but you can select what you like more:</p>
+        <p>Free:</p>
+        <ul class="no-bullets">
+            <li><a href="https://code.visualstudio.com/">Visual Studio Code</a></li>
+            <li><a href="https://atom.io/">Atom</a></li>
+            <li><a href="https://notepad-plus-plus.org/downloads/">Notepad++</a></li>
+            <li><a href="https://brackets.io/">Brackets</a></li>
+        </ul>
+        <p>Paid:</p>
+        <ul class="no-bullets">
+            <li><a href="https://www.jetbrains.com/webstorm/promo/?source=google&medium=cpc&campaign=9641686275&term=webstorm&gclid=CjwKCAiA9qKbBhAzEiwAS4yeDR0wmnagv8aD2AcCXd2EeWgqG-2J2GhMxugo2cxTLOn1O6bUiyGlWxoC0HsQAvD_BwE">Webstorm</a></li>
+            <li><a href="https://www.sublimetext.com/">Sublime Text</a></li>
+        </ul>
+        <p><span class="color-link">Another</span>&nbsp;<a href="https://www.hostinger.com/tutorials/best-code-editors">https://www.hostinger.com/tutorials/best-code-editors</a></p>
+        <p>Look at a short tutorial on how you can work with a code editor. Write your first HTML code with us :)</p>
+        <img class="image-info" src="./assets/image3.png" alt="code-editor"/>
+        <p>Now we are in the same page
+            in your code editor should be same code:
+        </p>
+        <p>Small explaining what these elements means:
+        <br/>
+        <br/>
+        The <span class="tag-color">&lt;!DOCTYPE html&gt;</span> declaration defines that this document is an HTML5 document</p>
+        <p>The <span class="tag-color">&lt;html&gt;</span> element is the root element of an HTML page</p>
+        <p>The <span class="tag-color">&lt;title&gt;</span> element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</p>
+        <p>The <span class="tag-color">&lt;body&gt;</span> element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.
+        </p>
+        <p>The <span class="tag-color">&lt;div&gt;</span> element. You use the div tag in HTML to divide sections of an HTML document.</p>
+        <p>After opening your index.html in your browser you should to see same result:</p>
+        <img class="image-info" src="./assets/image1.png" alt="html-page"/>
+        <ol class="list-bracket">
+            <li>Your content in title element</li>
+            <li>path to your file which you open</li>
+            <li>Your <span class="tag-color">div</span> with content</li>
+        </ol>
+        <p>Tags can be self closing or not, for example you can write tag <span class="tag-color">div</span> in two ways</p>
+        <ol class="list-dot">
+         <li><span class="tag-color">&lt;div&gt;&lt;/div&gt;</span></li>
+         <li><span class="tag-color">&lt;div/&gt</span></li>
+        </ol>
+        <p>We have a list of tags which is self closing:
+        <span class="tag-color">area, base, br, col, embed, hr, img, input, link, meta, param, source, track, wbr, command, keygen, menuitem</span></p>
+        <p>You don't need to learn these elements by heart, in this course we will learn all elements that you need to know in your first job.</p>
+    </ul>
+    </div>
+</body>
+</html>

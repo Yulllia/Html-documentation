@@ -1,0 +1,56 @@
+.title {
+    text-align: center;
+}
+.content-block {
+    padding: 0 20px 0 20px;
+    margin: 0 auto;
+}
+
+.user-name {
+    color: blueviolet;
+}
+
+.list-bracket,
+.list-dot,
+.list-sublist {
+    counter-reset: list;
+}
+.list-bracket,
+.list-dot,
+.list-sublist > li {
+    list-style: none;
+    display: block
+}
+.list-bracket > li:before {
+    content: counter(list) ") ";
+    counter-increment: list;
+    font-weight: bold;
+}
+.list-dot > li:before {
+    content: counter(list) " ";
+    counter-increment: list;
+    font-weight: bold;
+}
+
+.list-sublist > li:before { 
+    content: counters(list, ".") " "; 
+    counter-increment: list;
+    font-weight: bold;
+}
+
+.image-info {
+  width: 100%;
+  max-width: 800px;
+  height: auto;
+}
+.no-bullets {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.color-link {
+    color: blue;
+}
+.tag-color {
+    color: red;
+}
